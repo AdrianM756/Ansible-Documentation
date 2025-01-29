@@ -62,12 +62,7 @@ ansible servers -i /etc/hosts -m ping
 ```servers``` represents the the devices that are inside of the ```[servers]``` inventory in the  ```/etc/hosts``` file.
 
 ```-m``` represents the module that we will be using in which case, we will be using [ping module](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/ping_module.html).
-
-
-
-
-
-
-
+<br>
+<br>
 ## Author:
 [Sef Adrian Milambiling](https://github.com/AdrianM756)
