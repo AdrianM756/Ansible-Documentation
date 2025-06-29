@@ -1,3 +1,4 @@
+![image](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/384px-Ansible_logo.svg.png)
 ## Ansible
 
 [Ansible](https://www.redhat.com/en/ansible-collaborative/how-ansible-works) is an open source, command-line automation software application that is written in Python. It can configure systems, deploy software, and control workflows to support application deployment, system updates, and more.
