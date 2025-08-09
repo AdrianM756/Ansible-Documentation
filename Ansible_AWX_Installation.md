@@ -21,8 +21,14 @@ sudo apt install apt-transport-https ca-certificates software-properties-common 
 Install Ansible and add the Ansible repository.
 ```
 echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu focal main" | sudo tee /etc/apt/sources.list.d/ansible.list
+```
+```
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
-sudo apt update
+```
+```
+sudo apt update -y
+```
+```
 sudo apt install ansible -y
 ```
 <br>
@@ -30,11 +36,18 @@ sudo apt install ansible -y
 Install Docker and Docker Compose.
 ```
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+```
+```
 echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list
+```
+```
 sudo apt update
+```
+```
 sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 ```
 <br>
+
 Next, We need to clone the AWX Repository.
 
 ```
